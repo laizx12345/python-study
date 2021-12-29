@@ -16,4 +16,6 @@ d = {
 d2 = {
     **d
 }
-print(d2)
+
+print(*(1,2,3))
+print(*d2)
